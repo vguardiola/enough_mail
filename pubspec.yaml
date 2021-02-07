@@ -1,15 +1,15 @@
 name: enough_mail
 description: IMAP, POP3 and SMTP email clients in pure Dart. Choose between a low level and a high level API for mailing.
-version: 0.2.1
+version: 0.2.1+1
 homepage: https://github.com/Enough-Software/enough_mail
 
 environment:
-  sdk: '>=2.7.0 <3.0.0'
+  sdk: '>=2.10.0 <3.0.0'
 
 dependencies:
-  pedantic: ^1.9.2
+  pedantic: ^1.10.0
   event_bus: ^1.1.1
-  intl: ^0.16.1
+  intl: any
   crypto: ^2.1.5
   basic_utils: ^2.7.0
   xml: ^4.5.1
@@ -18,8 +18,6 @@ dependencies:
     #path: ../enough_serialization
   enough_convert: ^0.9.0
     #path: ../enough_convert
-
-
 
 dev_dependencies:
   test: ^1.15.4
